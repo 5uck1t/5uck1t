@@ -16,7 +16,19 @@ class MatCard extends HTMLElement {
         <p class="card-subtitle"><slot name="subtitle"></slot></p>
       </div>
       <div class="card-content">
+        <p class="card-role"><slot name="role"></slot></p>
+        <strong>Description:</strong>
         <slot name="content"></slot>
+        <div class="card-responsibilities">
+          <strong>Responsibilities:</strong>
+          <ul>
+            <slot name="responsibilities"></slot>
+          </ul>
+        </div>
+        <div class="card-environment">
+          <strong>Technologies:</strong>
+          <slot name="environment"></slot>
+        </div>
       </div>
       <div class="card-actions">
         <slot name="actions"></slot>
@@ -63,6 +75,10 @@ class MatCard extends HTMLElement {
       .card-actions ::slotted(button:active) {
         transform: translateY(0);
         box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+      }
+
+      .card-environment{
+        margin-bottom: 20px;
       }
 
       /* Dynamic border style */
