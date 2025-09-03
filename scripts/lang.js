@@ -33,7 +33,7 @@ const translations = {
     proj1Title: "Event Sharing Android App",
     proj1Text: "Developed an Android app for event sharing using Java and Android Studio. Implemented features for event creation, browsing, and user interaction. Built the backend with Node.js to handle CRUD operations, storing data in JSON files.",
     proj2Title: "University Management App",
-    proj2Text: "Developed a web app for managing a university using Spring Boot and MySQL. Implemented event creation, browsing, and user interaction with full CRUD backend support.",
+    proj2Text: "A collaborative university platform enabling professors, students, and administrative staff to manage courses, evaluations, and communication in one place. Features include announcements, forums, evaluation and task management, file managment, and role-based permissions for Nastavnik, Student, Sluzba and Admin. Built with Angular and Angular Material for a responsive UI, SCSS for styling, and a RESTful backend for persistence and authentication. Designed for scalability, usability, and modern educational workflows.",
     proj3Title: "Tour Map App",
     proj3Text: "Developed an Android app for tourism and location discovery using Java and Android Studio. Implemented features for user accounts, location tracking, adding custom points of interest, and interactive map navigation. Built the backend with Spring Boot to manage locations and user data."
   },
@@ -71,7 +71,7 @@ const translations = {
     proj1Title: "Android aplikacija za deljenje događaja",
     proj1Text: "Razvio sam Android aplikaciju za deljenje događaja koristeći Javu i Android Studio. Implementirao sam funkcionalnosti za kreiranje događaja, pregled i interakciju korisnika. Bekend je napravljen u Node.js-u za obradu CRUD operacija, a podaci su čuvani u JSON fajlovima.",
     proj2Title: "Aplikacija za upravljanje univerzitetom",
-    proj2Text: "Razvio sam veb aplikaciju za upravljanje univerzitetom koristeći Spring Boot i MySQL. Implementirao sam kreiranje događaja, pregled i interakciju korisnika sa potpunom CRUD podrškom na bekendu.",
+    proj2Text: "Kolaborativna univerzitetska platforma koja omogućava profesorima, studentima i administrativnom osoblju da upravljaju predmetima, ocenama i komunikacijom na jednom mestu. Funkcionalnosti uključuju najave, forume, upravljanje ocenama i zadacima, upravljanje fajlovima i dozvole zasnovane na ulogama za Nastavnik, Student, Služba i Admin. Izgrađeno koristeći Angular i Angular Material za responzivan korisnički interfejs, SCSS za stilizovanje i RESTful backend za čuvanje podataka i autentifikaciju. Dizajnirano za skalabilnost, jednostavnost korišćenja i moderne obrazovne tokove rada.",
     proj3Title: "Turistička mapa",
     proj3Text: "Razvijena Android aplikacija za turizam i otkrivanje lokacija koristeći Java i Android Studio. Implementirane funkcionalnosti za korisničke naloge, praćenje lokacije, dodavanje prilagođenih tačaka interesa i interaktivnu navigaciju na mapi. Backend je izrađen koristeći Spring Boot za upravljanje lokacijama i korisničkim podacima."
   }
